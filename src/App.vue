@@ -8,10 +8,10 @@ const goerLiWS =
 
 const web3 = new Web3(Web3.givenProvider || goerLiWS);
 
-//0xd9145CCE52D386f254917e481eB44e9943F39138
+0xd9145CCE52D386f254917e481eB44e9943F39138
 const metContract = new web3.eth.Contract(
   mtcJSON.abi
-  //,"0xd9145CCE52D386f254917e481eB44e9943F39138"
+  ,"0xd9145CCE52D386f254917e481eB44e9943F39138"
 );
 
 const name = ref("");
